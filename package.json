@@ -1,0 +1,35 @@
+{
+  "name": "fallback-font-check",
+  "version": "1.0.0",
+  "description": "Measure how well a fallback @font-face matches your webfont on your real pages, per weight band, and get the size-adjust that stops text re-wrapping when the font loads.",
+  "type": "module",
+  "bin": {
+    "fallback-font-check": "bin/fallback-font-check.mjs"
+  },
+  "files": [
+    "bin"
+  ],
+  "engines": {
+    "node": ">=18.3"
+  },
+  "dependencies": {
+    "playwright": "1.62.0"
+  },
+  "keywords": [
+    "cls",
+    "cumulative-layout-shift",
+    "font-display",
+    "size-adjust",
+    "fallback-font",
+    "web-performance",
+    "core-web-vitals",
+    "webfont"
+  ],
+  "author": "DebugSwift <hello@debugswift.com> (https://debugswift.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DebugSwiftHQ/fallback-font-check.git"
+  },
+  "homepage": "https://github.com/DebugSwiftHQ/fallback-font-check#readme"
+}
