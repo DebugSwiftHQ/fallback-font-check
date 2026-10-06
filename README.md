@@ -4,6 +4,8 @@
 
 A small CLI that measures how closely your fallback `@font-face` matches your webfont, using the real text on your real pages, separately for each weight band. It tells you which band is off and prints the `size-adjust` that fixes it.
 
+**Guide and quick start:** [debugswift.com/tools/fallback-font-check](https://debugswift.com/tools/fallback-font-check), part of [DebugSwift Tools](https://debugswift.com/tools).
+
 ```
 $ npx github:DebugSwiftHQ/fallback-font-check --font Satoshi --fallback "Satoshi Fallback" \
     https://debugswift.com/ https://debugswift.com/services https://debugswift.com/lead-engine \
