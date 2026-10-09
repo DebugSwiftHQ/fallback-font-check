@@ -8,7 +8,7 @@ A small CLI that measures how closely your fallback `@font-face` matches your we
 
 ```
 $ npx github:DebugSwiftHQ/fallback-font-check --font Satoshi --fallback "Satoshi Fallback" \
-    https://debugswift.com/ https://debugswift.com/services https://debugswift.com/lead-engine \
+    https://debugswift.com/ https://debugswift.com/services https://debugswift.com/debnest \
     https://debugswift.com/about https://debugswift.com/contact
 
 "Satoshi" vs "Satoshi Fallback": 596 strings across 5 page(s)
